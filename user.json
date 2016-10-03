@@ -1,0 +1,5 @@
+[
+  { "id": "1", "first_name": "Name1", "last_name": "Surname1", "age": 23 },
+  { "id": "2", "first_name": "Name2", "last_name": "Surname2", "age": 20 },
+  { "id": "3", "first_name": "Name3", "last_name": "Surname3", "age": 21 }
+]
