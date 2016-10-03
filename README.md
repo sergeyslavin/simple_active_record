@@ -13,7 +13,7 @@ end
 
  ```self.table_name``` - optional property. By Default it uses model class name and tranform to snake case and make pluralize. Example: ```self.table_name = "PostModel"``` - will create "post_models" table name. In case with mongo, this property uses for creating collecion.
  
- ## Access
+ **Access**
 Model creates access for property automatically. You can assign only String or Numeric types. In other case will be exception.
 
  ```ruby
@@ -30,14 +30,14 @@ Model creates access for property automatically. You can assign only String or N
   pust post.title #Title
   ```
   
-  ## Commit
+  **Commit**
   To save changes you need to call ```Model#save``` method and it will create new record in database.
   ```ruby
   post = Post.new({ title: "Title", content: "Content" })
   post.save
   ```
   
-  ## Find
+  **Find**
   To find element in database you need to use ```Model#find```. This method takes one required parameter and another optional.
   To Find element by ```id``` you just need to pass it like argument.
   ```ruby
@@ -65,8 +65,8 @@ Model creates access for property automatically. You can assign only String or N
   ```
   
   **That's all.**
-  ##### To run task to build fixtures you need to exec 
-  ```rake file=user.json``` or ```rake parse_file file=user.json``` 
+  *To run task to build fixtures you need to exec*
+```rake file=user.json``` or ```rake parse_file file=user.json``` 
 
 - user.json - it's name of file with fixtures. File name should be equas as model name. **It's important.**
 
