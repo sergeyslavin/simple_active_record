@@ -1,5 +1,10 @@
 # Simple Active Record
 ## Using
+
+**Configure**
+
+At first you need to configure file ```"active_record/config.yml"``` and provide ```host``` and ```database``` keys.
+
 ```ruby
 #include base active record file
 require_relative 'active_record/active_record_base'
